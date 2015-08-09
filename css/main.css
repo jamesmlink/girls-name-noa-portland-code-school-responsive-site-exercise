@@ -1,1 +1,112 @@
 
+html{
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin:0;
+  color:#333;
+  background-color: #F1F1E9;
+
+}
+
+.title {
+  display: block;
+  position:fixed;
+  top:0;
+  background-color: #333;
+  width: 100%;
+}
+
+.logo{
+    width: 100%;
+    background-color:#BD9DFF;
+}
+
+h1 {
+  text-align: center;
+  color: #FFFFFF;
+  font-size:1.5rem;
+  margin: 0.1rem 0.5rem;
+}
+
+h2{
+  font-size:1.15rem;
+  margin: 0.5rem .25rem 0;
+}
+
+h2:before {
+  display: block;
+  content: " ";
+  height: 2.5rem;
+  margin-top: -2.5rem;
+  visibility: hidden;
+}
+
+svg{
+  padding-top:2.1rem;
+  display:block;
+  margin: auto;
+  width:100px;
+  height: 100px;
+}
+
+nav{
+  background-color: #FFF;
+}
+ul {
+  display:table;
+  font-size:0.95rem;
+  max-width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  padding:0;
+  padding-top: 0.95rem;
+  list-style-position:inside;
+  list-style-type: none;
+  margin-bottom: 0rem;
+  margin-top:0rem;
+
+}
+
+li {
+  margin-bottom: 0.95rem;
+}
+
+
+p{
+  font-size:0.95rem;
+  margin: 0.25rem 0;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color:blue;
+}
+
+#top{
+  font-weight:normal;
+}
+
+article{
+  margin: 0rem 0.5rem 1rem 0.5rem;
+}
+
+.artfeature {
+  float:left;
+  max-width:25%;
+  padding-right: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin-top: 0.45rem;
+}
+
+footer {
+  background-color: #333;
+  padding:0.5rem;
+}
+footer p{
+  text-align: center;
+  font-size:0.75rem;
+  color:#FFF;
+}
