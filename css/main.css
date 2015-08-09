@@ -1,13 +1,14 @@
 
 html{
   font-family:Arial, Helvetica, sans-serif;
+  font-size: 16px;
 }
 
 body {
   margin:0;
   color:#333;
   background-color: #FFF;
-
+  -webkit-text-size-adjust: none;
 }
 
 .title {
@@ -20,7 +21,7 @@ body {
 
 .logo{
     width: 100%;
-    background-color:#BD9DFF;
+    background-color:#AD85FF;
     padding-top:2rem;
 }
 
@@ -52,7 +53,7 @@ svg {
 }
 
 nav{
-  background-color: #F1F1E9;
+  background-color: #F0F0F0;
 }
 
 ul {
@@ -84,6 +85,10 @@ a {
   text-decoration: none;
   font-weight: bold;
   color:navy;
+}
+
+a:hover{
+  color:#FF0066;
 }
 
 #top{
