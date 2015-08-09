@@ -6,7 +6,7 @@ html{
 body {
   margin:0;
   color:#333;
-  background-color: #F1F1E9;
+  background-color: #FFF;
 
 }
 
@@ -21,6 +21,7 @@ body {
 .logo{
     width: 100%;
     background-color:#BD9DFF;
+    padding-top:2rem;
 }
 
 h1 {
@@ -31,7 +32,7 @@ h1 {
 }
 
 h2{
-  font-size:1.15rem;
+  font-size:1.25rem;
   margin: 0.5rem .25rem 0;
 }
 
@@ -43,8 +44,7 @@ h2:before {
   visibility: hidden;
 }
 
-svg{
-  padding-top:2.1rem;
+svg {
   display:block;
   margin: auto;
   width:100px;
@@ -52,16 +52,17 @@ svg{
 }
 
 nav{
-  background-color: #FFF;
+  background-color: #F1F1E9;
 }
+
 ul {
   display:table;
-  font-size:0.95rem;
-  max-width: 250px;
+  font-size:1.15rem;
+  max-width: 280px;
   margin-left: auto;
   margin-right: auto;
   padding:0;
-  padding-top: 0.95rem;
+  padding-top: 1.15rem;
   list-style-position:inside;
   list-style-type: none;
   margin-bottom: 0rem;
@@ -70,19 +71,19 @@ ul {
 }
 
 li {
-  margin-bottom: 0.95rem;
+  margin-bottom: 1.15rem;
 }
 
 
 p{
-  font-size:0.95rem;
+  font-size:1.15rem;
   margin: 0.25rem 0;
 }
 
 a {
   text-decoration: none;
   font-weight: bold;
-  color:blue;
+  color:navy;
 }
 
 #top{
