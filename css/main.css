@@ -87,7 +87,7 @@ a {
   color:navy;
 }
 
-a:hover{
+a:active {
   color:#FF0066;
 }
 
@@ -115,4 +115,112 @@ footer p{
   text-align: center;
   font-size:0.75rem;
   color:#FFF;
+}
+
+@media screen and (min-width: 700px) {
+
+
+  @font-face{
+
+    font-family: "Roboto";
+    src: url(Roboto-Regular.ttf);
+  }
+  html{
+    font-family: 'Roboto',sans-serif;
+  }
+  a:hover{
+    color: #FF0066
+  }
+
+  h2:before {
+    display: none;
+  }
+
+  .logo{
+    position:fixed;
+    top:0;
+    float:left;
+    width:200px;
+    padding-top:0;
+    margin:1rem;
+    border-radius:.5rem;
+  }
+  svg{
+    height:200px;
+    width: 200px;
+  }
+
+  .title{
+    position: absolute;
+    color: #333;
+    background-color:transparent;
+    /*background-color: rgba(255,255,255,.5);*/
+
+  }
+  h1 {
+    text-align: left;
+    font-size:3.5rem;
+    margin: 2rem 1rem;
+    margin-left:180px;
+    padding-left:5px;
+    color: #333;
+    background-color: rgba(255,255,255,.6);
+    border-radius:1rem;
+  }
+
+  nav{
+    background-color: #FFF;
+    max-width: 230px;
+    height:350px;
+    position:fixed;
+    float:left;
+    overflow:auto;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top:40px;
+  }
+
+  ul {
+
+  }
+
+  li {
+    margin-bottom: 1.15rem;
+
+  }
+
+  h2{
+    margin-left:0;
+    font-size: 1.6rem;
+    margin-bottom: 0.5rem;
+    margin-top:0.5rem;
+  }
+
+  .content{
+    margin-left:270px;
+    margin-top: 180px;
+    margin-right:1.25rem;
+  }
+
+  article{
+    min-height: 250px;
+    margin-bottom:0.5rem;
+  }
+
+.artfeature {
+    content: url(../img/lavender_med_size.jpg);
+    float:left;
+    max-width:30%;
+    padding-right: 0.8rem;
+    padding-left:0;
+    padding-bottom: 0.5rem;
+    margin-top: 0.15rem;
+  }
+article:nth-of-type(odd) .artfeature {
+      float:right;
+      padding-left:0.8rem;
+      padding-right:0;
+  }
+
+
 }
