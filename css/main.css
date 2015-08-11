@@ -34,7 +34,7 @@ h1 {
 
 h2{
   font-size:1.25rem;
-  margin: 0.5rem .25rem 0;
+  margin: 0rem .25rem 1rem;
 }
 
 h2:before {
@@ -79,6 +79,7 @@ li {
 p{
   font-size:1.15rem;
   margin: 0.25rem 0;
+  margin-bottom:1rem;
 }
 
 a {
@@ -97,6 +98,7 @@ a:active {
 
 article{
   margin: 0rem 0.5rem 1rem 0.5rem;
+  padding-top:2rem;
 }
 
 .artfeature {
@@ -115,6 +117,7 @@ footer p{
   text-align: center;
   font-size:0.75rem;
   color:#FFF;
+  margin-bottom:0;
 }
 
 @media screen and (min-width: 700px) {
@@ -192,8 +195,7 @@ footer p{
   h2{
     margin-left:0;
     font-size: 1.6rem;
-    margin-bottom: 0.5rem;
-    margin-top:0.5rem;
+    margin-bottom: 1rem;
   }
 
   .content{
@@ -205,6 +207,9 @@ footer p{
   article{
     min-height: 250px;
     margin-bottom:0.5rem;
+    padding-top:4rem;
+    padding-bottom:2rem;
+    border-bottom: solid #333 2px;
   }
 
 .artfeature {
